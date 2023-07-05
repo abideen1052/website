@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    background: #00040f;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+.logo{
+    color: #fff;
+    width: 40%;
+    
+}
+.logo h1{
+    padding-left: 60px;
+    padding-top: 10px;
+}
+.navbar{
+    width: 40%;
+    padding-left: 220px;
+}
+.navbar ul {
+    list-style-type: none;
+    text-align: center; 
+     
+  }
+ a{
+    text-decoration: none;
+    color: #9c9393;
+  }
+
+.navbar li {
+    float: left;
+    padding-left: 30px;
+    font-size: 14px;
+  }
