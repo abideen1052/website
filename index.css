@@ -38,3 +38,32 @@ body{
     padding-left: 30px;
     font-size: 14px;
   }
+  .body{
+    width: 100%;
+    display: flex;
+  }
+  .name-section{
+    width: 40%;
+  }
+  .name-section h1{
+    color: #fff;
+    font-size: 40px;
+  }
+  .name-section p{
+    color: #9c9393;
+    font-size: small;
+  }
+  .name-section span{
+    color: #76e2e2;
+  }
+  .heading{
+    padding-left: 100px;
+    padding-top: 50px;
+  }
+  .main-image{
+    width: 60%;
+  }
+  .main-image img{
+    width: 100%;
+    height: 450px;
+  }
