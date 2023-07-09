@@ -1,5 +1,89 @@
+.service-body {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    animation: transitionIn 0.75s;
+}
+
 .title {
     color: #fff;
     width: 100%;
     text-align: center;
 }
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.card {
+   position: relative;
+   margin-top: 50px;
+   width: 280px;
+   height: 270px;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 280px;
+   height: 270px;
+  background: rgba(0, 0, 0, 0);
+  transition: 0.5s ease
+}
+
+img {
+    position: absolute;
+    width: 280px;
+   height: 270px;
+    left: 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.card:hover .overlay{
+    display: block;
+  background: rgba(0, 0, 0, .3);
+}
+.p-name{
+    position: absolute;
+    width: 250px;
+    left: 0;
+    top: 120px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    z-index: 1;
+    transition: top .5s ease;
+}
+.card:hover .p-name{
+    top: 90px;
+}
+.button{
+    position: absolute;
+  width: 250px;
+  left:0;
+  top: 180px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+.button a {
+    width: 200px;
+    padding: 12px 48px;
+    text-align: center;
+    color: white;
+    border: solid 2px white;
+    z-index: 1;
+  }
+  .card:hover .button{
+    opacity: 1;
+  }
+
+.container b {
+    color: #fff;
+}
+
