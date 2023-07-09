@@ -1,0 +1,114 @@
+.contact-body{
+    padding: 40px;
+    animation: transitionIn 0.75s;
+}
+.title{
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+.contact{
+    display: flex;
+}
+.contact-card{
+    margin-top: 22px;
+    height: 150px;
+    width: 40%;
+}
+.contact-card img{
+    height: 350px;
+    width: 400px;
+    border: none;
+}
+.easy-contact{
+    display: flex;
+    width: 95%;
+    height:250px;
+    justify-content: space-between;
+    padding: 40px;
+    align-items: center;
+}
+.card{
+    width: 245px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.easy-contact img{
+    width: 125px;
+    height: 125px;
+    
+}
+.easy-contact b{
+    color: #fff;
+}
+.easy-contact p{
+    color: #9c9393;
+}
+.easy-contact button{
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+}
+.easy-contact button:hover{
+    background-color: black;
+    color: #fff;
+    box-shadow: 0 5px 8px 0 #76e2e2;
+}
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding: 5px;
+
+}
+.fields{
+    display: flex;
+    flex-direction: column;
+    
+}
+.field{
+    padding-top: 15px;
+    
+}
+.field input:hover {
+    box-shadow: 0 5px 8px 0 #76e2e2;
+    
+}
+.form input{
+    width: 800px;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+    
+}
+.form textarea{
+    border: none;
+    border-radius: 7px;
+    outline: none;
+    width: 800px;
+    
+}
+.form textarea:hover {
+    box-shadow: 0 5px 8px 0 #76e2e2;
+    
+}
+.button{
+    padding-top: 10px;
+}
+.button button{
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    
+}
+.button button:hover{
+    background-color: black;
+    color: #fff;
+    box-shadow: 0 5px 8px 0 #76e2e2;
+}

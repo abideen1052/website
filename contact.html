@@ -4,24 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
     <div class="container">
         <div class="header">
             <div class="logo">
-                <h1>Fuchsia</h1>
+                <h1>E<span>Banking</span></h1>
                 
             </div>
             <div class="navbar">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About Us</a></li>
-                    <li><a href="contact.html">Contact</a></li>
                     <li><a href="services.html">Services</a></li>
                     <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
+        </div>
+        <div class="contact-body">
+            <div class="title">
+                <h1>Contact Us</h1>
+            </div>
+            <div class="easy-contact">
+                <div class="card">
+                    <img src="assets\call.png" alt="img">
+                    <div class="container">
+                        <h4><b>Phone</b></h4>
+                        <p>(Mondat to Friday 9 am to 4 pm )<br>+91 9495782314</p>
+                    </div>
+                    <button onclick="callNow()">Call now</button>
+                </div>
+                <div class="card">
+                    <img src="assets\email.png" alt="img">
+                    <div class="container">
+                        <h4><b>Email</b></h4>
+                        <p>Send your questions by mail<br>ebanking@gmail.com</p>
+                    </div>
+                    <button onclick="emailNow()">Send mail</button>
+                </div>
+                <div class="card">
+                    <img src="assets\chat.png" alt="img">
+                    <div class="container">
+                        <h4><b>Live Chat</b></h4>
+                        <p>Chat with member of our<br> in-house team</p>
+                    </div>
+                    <button onclick="chatNow()">Start chat</button>
+                </div>
+            </div>
+            <div class="title">
+                <h1>Leave your details</h1>
+            </div>
+            <div class="contact">
+                <div class="contact-card">
+                    <img src="assets\contact.jpg" alt="">
+                </div>
+                <div class="form">
+                    <div class="fields">
+                        <div class="field">
+                            <input type="text" id="name" placeholder="Your Name">
+                        </div>
+                        <div class="field">
+                            <input type="email" id="email" placeholder="Your Email">
+                        </div>
+                        <div class="field">
+                            <input type="number" id="contact" placeholder="Your Contact">
+                        </div>
+                        <div class="field">
+                            <textarea name="message" id="msg" cols="100" rows="10" placeholder="Write your message here......."></textarea>
+                        </div>
+                        <div class="button">
+                            <button name="submit" onclick="validate()">Submit</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
         </div>
     </div>
     <script src="script.js"></script>
